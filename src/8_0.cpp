@@ -117,7 +117,7 @@ void BFS(Graph* pg, int ver){
             }
         } 
     }
-    printf("%d\n");
+    printf("%d\n", ver);
     delete[] visited;
 }
 
